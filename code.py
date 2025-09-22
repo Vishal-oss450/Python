@@ -44,6 +44,7 @@ j = int(input("Enter price of item 10"))
 sum = a+b+c+d+e+f+g+h+i+j
 discount = sum*0.20
 if sum >= 2000:
-    sum = sum - 2000
+    sum = sum - discount
     print("Total =", sum)
 else: print("Total = ",sum)
+
